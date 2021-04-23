@@ -1,0 +1,9 @@
+{{#each list}}
+<div class="container d-flex flex-column bd-highlight mb-3 justify-content-between text-center m-auto" style="width: 530px">
+  <img id="img" style="width: 500px" src={{img}}>
+  <span class="rick">{{caracterName}}</span>
+  <span class="rick">{{gender}}</span>
+  <span class="rick">{{status}}</span>
+  <button id="add" data-id={{this._id}} class="delete">delete</button>
+</div>
+{{/each}}

@@ -1,0 +1,29 @@
+<nav class="bg-info">
+  <div class="d-flex flex-row bd-highlight mb-3 justify-content-between">
+    <div>
+      <a class="nav-link active" aria-current="page" href="/">
+        <h1>Rick and Morty</h1>
+      </a>
+    </div>
+
+    {{#if name}}
+      <div class="nav-link active" aria-current="page">
+        <h2>Hello {{name}}</h2>
+      </div>
+    <ul class="d-flex nav">
+    <div class="d-flex align-items-center">
+      <li class="nav-item"><a class="nav-link active" aria-current="page" id="logout" href="/logout">Logout</a></li>
+      <li class="nav-item"><a class="nav-link active" aria-current="page" id="Profile" href="/Profile">Profile</a></li>
+    </div>
+    </ul>
+    {{else}}
+    <ul class="d-flex nav">
+    <div class="d-flex align-items-center">
+      <li class="nav-item"><a class="nav-link active" aria-current="page" id="signup" href="/signup">Signup</a></li>
+      <li class="nav-item"><a class="nav-link active" aria-current="page" id="login" href="/login">Login</a></li>
+    </div>
+    </ul>
+    {{/if}}
+
+  </div>
+</nav>

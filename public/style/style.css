@@ -1,0 +1,33 @@
+body {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.rick {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 8px 0;
+}
+
+#add {
+  padding: 5px 30px;
+  background: #a9d3e9;
+  border: 2px solid #e8e8e8;
+}
+
+.foo {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.active {
+  margin: 0;
+  padding-top: 15px;
+}
+
+.bg-info {
+  background-color: #a9d3e9 !important;
+}
